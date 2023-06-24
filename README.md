@@ -1,4 +1,9 @@
 ### Demo of module federation (micro frontends)
+
+#### Structure:
+* remote is a React app which exposes a federated module.
+* ng-host is an Angular app which consumes the federated module.
+
 #### Running instructions:
 * navigate to remote
   * `npm install`
